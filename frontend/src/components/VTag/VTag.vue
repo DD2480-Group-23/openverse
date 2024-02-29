@@ -5,6 +5,7 @@
     variant="filled-gray"
     class="label-bold"
     :href="href"
+    :aria-label="`Tag: ${title}`"
     >{{ title }}</VButton
   >
 </template>
